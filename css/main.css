@@ -89,6 +89,67 @@ body{
 	left: 350px;
 }
 
+.forma-ventana{
+	width: 70px;
+	height: 70px;
+}
+
+#ventana{
+	background-color: pink;
+	position: relative;
+	top: 50px;
+	left: 190px;
+}
+
+.forma-puerta{
+	width: 100px;
+	height: 150px;
+}
+
+#puerta{
+	background-color: grey;
+	position: relative;
+	top: -20px;
+	left: 45px;
+}
+
+/*estilos corazon TOT*/
+.forma-corazon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 35px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: crimson;
+}
+.forma-corazon:before,
+.forma-corazon:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: crimson;
+}
+.forma-corazon:before{/*circulo izquierdo*/
+    bottom: 0px;
+    left: -13px;
+}
+.forma-corazon:after{
+    top: -13px;
+    right: 0px;
+}
+/*-------------*/
+
+
 .forma-suelo{
 	width: 800px;
 	height: 90px;
