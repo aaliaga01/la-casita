@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	margin: 0;
+	padding: 0;
+}
+
+.forma-sol{
+	width: 100px;
+	height: 100px;
+}
+
+#sol{
+	background-color: yellow;
+	border-radius: 100%;
+	position: relative;
+	top: 100px;
+	left: 320px;
+}
+
+.forma-techo{
+	width: 200px;
+	height: 0;
+}
+
+#techo{
+	position: absolute;
+	box-sizing: content-box;
+  	border: 50px solid rgba(0,0,0,0);
+  	border-top: 0 solid;
+  	border-bottom: 100px solid black;
+  	top: 200px;
+  	left: 600px;
+}
+
+.forma-hum{
+	width: 20px;
+	height: 20px;
+}
+
+#hum1{
+	background-color: silver;
+	border-radius: 100%;
+	position: absolute;
+	top: 180px;
+	left: 900px;
+}
+
+#hum2{
+	background-color: silver;
+	border-radius: 100%;
+	position: absolute;
+	top: 1px;
+	left: 228px;
+}
+
+#hum3{
+	background-color: silver;
+	border-radius: 100%;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+
+.forma-chim{
+	width: 25px;
+	height: 50px;
+}
+
+#chim{
+	background-color:crimson;
+	position: absolute;
+	top: 35px;
+	left: 180px;
+}
+
+.forma-suelo{
+	width: 800px;
+	height: 90px;
+}
+
+#suelo{
+	background-color: green;
+	position: relative;
+	top: 400px;
+	left: 250px;
+}
